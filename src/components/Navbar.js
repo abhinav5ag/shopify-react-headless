@@ -19,7 +19,7 @@ const Navbar = () => {
       alignItems="center"
     >
       <Icon
-        fill="white"
+        fill="black"
         cursor="pointer"
         onClick={() => openMenu()}
         as={MdDehaze}
@@ -29,20 +29,20 @@ const Navbar = () => {
       <Link to="/">
         <Image
           src="https://image.shutterstock.com/image-vector/fire-wheel-cartoon-sport-illustration-260nw-1144490984.jpg"
-          w={100}
-          h={100}
+          w={150}
+          h={150}
         />
       </Link>
       <Box>
         <Icon
-          fill="white"
+          fill="black"
           cursor="pointer"
           onClick={() => openCart()}
           as={MdShoppingBasket}
           w={30}
           h={30}
         ></Icon>
-        <Badge backgroundColor="#FF38BD" borderRadius="50%">
+        <Badge backgroundColor="white" borderRadius="50%">
           {checkout?.lineItems?.length}
         </Badge>
       </Box>

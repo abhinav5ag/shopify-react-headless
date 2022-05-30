@@ -18,7 +18,7 @@ const HomePage = () => {
 
   return (
     <Box>
-      <Hero />
+      {/* <Hero /> */}
       <RichText
         heading="The thrill you’ve been waiting for."
         text="Our bikes guarantee a fun, thrilling, and colorful ride."

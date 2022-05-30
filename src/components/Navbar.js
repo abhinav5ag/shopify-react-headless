@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import './navbaar.css';
 import { Link } from "react-router-dom";
 import { ShopContext } from "../context/shopContext";
 
@@ -10,16 +11,17 @@ const Navbar = () => {
 
   return (
     <Box
+      className="navbar-color"
       borderBottom="0.25pt white solid"
-      backgroundColor="#FFF"
+      backgroundColor="#e82231"
       display="flex"
       flexDir="row"
-      p="2rem"
+      p="1rem"
       justifyContent="space-between"
       alignItems="center"
     >
       <Icon
-        fill="black"
+        fill="white"
         cursor="pointer"
         onClick={() => openMenu()}
         as={MdDehaze}
@@ -28,14 +30,14 @@ const Navbar = () => {
       ></Icon>
       <Link to="/">
         <Image
-          src="https://image.shutterstock.com/image-vector/fire-wheel-cartoon-sport-illustration-260nw-1144490984.jpg"
+          src="https://cdn.boongg.com/Images%20-%20CDN/Header/boongg-white-logo-full.png"
           w={150}
-          h={150}
+          h={10}
         />
       </Link>
       <Box>
         <Icon
-          fill="black"
+          fill="white"
           cursor="pointer"
           onClick={() => openCart()}
           as={MdShoppingBasket}

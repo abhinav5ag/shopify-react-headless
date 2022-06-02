@@ -64,7 +64,7 @@ const ProductPage = () => {
               _hover={{ opacity: "70%" }}
               onClick={() => addItemToCheckout(product.variants[0].id, 1)}
             >
-              Add To Cart
+              Book Now
             </Button>
           </Box>
         </Grid>

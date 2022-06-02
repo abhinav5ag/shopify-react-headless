@@ -11,26 +11,18 @@ const Navbar = () => {
   return (
     <Box
       borderBottom="0.25pt white solid"
-      backgroundColor="#FFF"
+      backgroundColor="#e82231"
       display="flex"
       flexDir="row"
-      p="2rem"
+      p="1rem"
       justifyContent="space-between"
       alignItems="center"
     >
-      <Icon
-        fill="black"
-        cursor="pointer"
-        onClick={() => openMenu()}
-        as={MdDehaze}
-        w={30}
-        h={30}
-      ></Icon>
       <Link to="/">
         <Image
-          src="https://image.shutterstock.com/image-vector/fire-wheel-cartoon-sport-illustration-260nw-1144490984.jpg"
+          src="https://raw.githubusercontent.com/abhinav5ag/shopify-react-headless/6d5ab9fa973c9f85d5c2584dff13e70d731cfffb/public/boongg-white-logo-full.png"
           w={150}
-          h={150}
+          h={50}
         />
       </Link>
       <Box>

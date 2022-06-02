@@ -22,7 +22,7 @@ const Hero = () => {
         fontWeight="bold"
         fontSize="4rem"
       >
-        Introducing Thrill Wheels
+        Introducing Boong
       </Text>
       <Center>
         <Button
